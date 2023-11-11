@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Data // สร้างต่าง ๆ อัตโนมัติเช่น getter, setter, toString, hashCode, และ equals เพื่อลดจำนวนโค้ดที่ต้องเขียนเอง
-@Document("Chats") //Mongo collection
+@Document("Disro_db") //Mongo collection
 public class Chat implements Serializable {
     @Id
     private String _id; // ใช้เป็น ObjectId ของ MongoDB
